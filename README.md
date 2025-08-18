@@ -1,69 +1,117 @@
-# React + TypeScript + Vite
+# 🌟 DoomsyDev Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **A dark, minimalist React portfolio showcasing backend development skills and content creation**
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/Live-Demo-64ffda?style=for-the-badge&logo=vercel)](https://rubenbarbosa2023.github.io/doomsy-dev-portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/rubenbarbosa2023/doomsy-dev-portfolio)
+[![React](https://img.shields.io/badge/React-18+-61dafb?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178c6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👋 About
 
-## Expanding the ESLint configuration
+Welcome to **DoomsyDev** - the portfolio of **Ruben Barbosa**, a passionate Backend Developer & Content Creator. This website showcases my skills, projects, and provides easy access to my social media channels.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🎨 **Design Features**
+- 🌑 **Dark minimalist theme** with a nerdy developer aesthetic
+- 💻 **Terminal-style interface** with code editor elements
+- 🔤 **Monospace fonts** (JetBrains Mono, Fira Code)
+- ⚡ **Glassmorphism effects** and smooth animations
+- 📱 **Fully responsive** design for all devices
+- 🎯 **Clean, professional layout** with subtle gradients
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 🛠️ **Technical Stack**
+- **Frontend:** React 19+ with TypeScript
+- **Build Tool:** Vite for fast development and building
+- **Styling:** Pure CSS with modern features
+- **Deployment:** GitHub Pages
+- **Fonts:** Google Fonts (JetBrains Mono, Fira Code)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🚀 **Features**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 🖥️ **Terminal-Style Description Box**
+- Authentic macOS terminal window design
+- Traffic light buttons (🔴🟡🟢)
+- Line numbers with syntax highlighting
+- Animated blinking cursor
+- Glassmorphism backdrop effects
+
+### 🔗 **Social Media Integration**
+- 📺 **YouTube** - [@DoomsyDev](https://www.youtube.com/@DoomsyDev)
+- 🐙 **GitHub** - [rubenbarbosa2023](https://github.com/rubenbarbosa2023)
+- 💼 **LinkedIn** - [rubenbarbosa2023](https://www.linkedin.com/in/rubenbarbosa2023/)
+- 🐦 **Twitter** - [@DoomsyDev](https://x.com/DoomsyDev)
+- ✉️ **Email** - [ru.borgs@gmail.com](mailto:ru.borgs@gmail.com)
+
+### 🎯 **Code-Inspired Elements**
+- HTML-style tags around "Doomsy dev" (`< Doomsy dev />`)
+- Comment syntax in section headers (`// Connect with me`)
+- Footer wrapped in CSS comments (`/* Made with React & ❤️ */`)
+- Subtle grid patterns and developer-friendly color scheme
+
+## 🛠️ **Development**
+
+### **Prerequisites**
+- Node.js 18+ and npm
+- Git for version control
+
+### **Local Development**
+```bash
+# Clone the repository
+git clone https://github.com/rubenbarbosa2023/doomsy-dev-portfolio.git
+cd doomsy-dev-portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Open http://localhost:5173 in your browser
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### **Available Scripts**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run deploy` - Deploy to GitHub Pages
+- `npm run lint` - Run ESLint for code quality
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🌐 **Deployment**
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+This portfolio is automatically deployed to **GitHub Pages** at:
+**https://rubenbarbosa2023.github.io/doomsy-dev-portfolio/**
+
+To deploy updates:
+```bash
+npm run deploy
 ```
+
+## 📱 **Responsive Design**
+
+- **Desktop:** Full-width terminal aesthetic with grid layout
+- **Tablet:** Adapted layout with maintained visual hierarchy
+- **Mobile:** Single-column layout optimized for touch interaction
+
+## 🎨 **Color Palette**
+
+| Color | Hex Code | Usage |
+|-------|----------|-------|
+| Primary Cyan | `#64ffda` | Accent color, links, highlights |
+| Purple | `#a78bfa` | Secondary accents, code elements |
+| Dark Blue | `#00d4ff` | Gradient elements |
+| Dark Background | `#0f0f0f` | Main background |
+| Card Background | `#1a1a2e` | Component backgrounds |
+| Light Gray | `#e2e8f0` | Primary text |
+| Medium Gray | `#a0aec0` | Secondary text |
+
+## 📄 **License**
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 **Connect With Me**
+
+Feel free to reach out through any of the social media links on the portfolio, or drop me an email at [ru.borgs@gmail.com](mailto:ru.borgs@gmail.com).
+
+---
+
+**Made with React & ❤️ by [DoomsyDev](https://github.com/rubenbarbosa2023)**
