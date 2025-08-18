@@ -1,0 +1,16 @@
+# Global code owners - All changes require approval from @rubenbarbosa2023
+* @rubenbarbosa2023
+
+# Specific protection for critical files
+package.json @rubenbarbosa2023
+package-lock.json @rubenbarbosa2023
+vite.config.ts @rubenbarbosa2023
+tsconfig*.json @rubenbarbosa2023
+.github/ @rubenbarbosa2023
+
+# Deployment and build files
+/dist/ @rubenbarbosa2023
+/public/ @rubenbarbosa2023
+
+# Source code protection
+/src/ @rubenbarbosa2023
