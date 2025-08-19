@@ -11,7 +11,7 @@ function App() {
           <p className="title">Backend Developer & Content Creator</p>
           <div className="description">
             <div className="description-content">
-              Welcome to my land page! I am a passionate backend developer with a knack for creating efficient APIs in a professional evironment. I would love to share my knowledge through content creation, including tutorials and tech talks.
+              Welcome to my land page! I am a passionate backend developer with a knack for creating efficient APIs in a professional environment. I would love to share my knowledge through content creation, including tutorials and tech talks.
               <br /><br />
               Explore my projects, connect with me on social media, and let's build something amazing together!
             </div>
